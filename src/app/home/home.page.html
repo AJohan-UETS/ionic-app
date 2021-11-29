@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end" side="right">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      
+    </ion-toolbar>
+  </ion-header>
+  <div>
+    <img src="assets/port.jpg" alt="Image" id="port">
+  </div>
+  <div id="content">
+    <ion-text id="ins">
+      UNIDAD EDUCATIVA TECNICO SALESIANO
+    </ion-text>
+    <ion-text id="mat">
+      Programación movil
+    </ion-text>
+    <ion-text id="name">
+      Por Johan Alvarado
+    </ion-text>
+    <div id="buttons">
+      <ion-button color="light" [routerLink]="['/imagen']">Imagen</ion-button>
+      <ion-button color="light" [routerLink]="['/video']">Video</ion-button>
+      <ion-button color="light" [routerLink]="['/register']">Registrarse</ion-button>
+    </div>
+  </div>
+  <img src="assets/icon/uets.png" alt="Logo" id="logo">
+</ion-content>
